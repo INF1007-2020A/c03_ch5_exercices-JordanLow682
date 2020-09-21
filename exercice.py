@@ -25,7 +25,12 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    return 0
+    sum = 0
+    number = 0
+    while(number < 100):
+        sum += number
+        number += 1
+    return sum
 
 
 def factorial(number: int) -> int:
