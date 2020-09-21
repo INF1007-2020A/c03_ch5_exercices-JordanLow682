@@ -8,9 +8,9 @@ ERROR: test_prefixes (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 14, in test_prefixes
     output = exercice.use_prefixes()
-  File "/home/runner/work/c03_ch5_exercices-JordanLow682/c03_ch5_exercices-JordanLow682/exercice.py", line 17, in use_prefixes
-    for index in debut(len(prefixes) - 1):
-NameError: name 'debut' is not defined
+  File "/home/runner/work/c03_ch5_exercices-JordanLow682/c03_ch5_exercices-JordanLow682/exercice.py", line 22, in use_prefixes
+    nom = print(prefixes[index] + suffixes)
+TypeError: string indices must be integers
 
 ======================================================================
 FAIL: test_factorial (__main__.TestExercice)
